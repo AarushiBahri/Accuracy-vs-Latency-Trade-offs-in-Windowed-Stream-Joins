@@ -1,0 +1,10 @@
+# raw data and generated run output (large, reproducible)
+data/raw/*.parquet
+runs/
+output/
+chk/
+stream/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

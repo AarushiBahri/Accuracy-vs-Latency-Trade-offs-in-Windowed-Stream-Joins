@@ -1,0 +1,10 @@
+condition,watermark,join_window,seed,total_trips,matched_trips,completeness,loss,lat_p50_wall,lat_p99_wall,lat_p50_sim,lat_p99_sim,declared_unmatched,pending,unm_lat_p50_wall,unm_lat_p99_wall,unm_lat_p50_sim,unm_lat_p99_sim
+baseline,5 minutes,1 hour,1,3000,3000,1.000000,0.000000,1.088,3.026,65.3,181.6,0,0,nan,nan,nan,nan
+lateness_only,5 minutes,1 hour,1,3000,2425,0.808333,0.191667,1.271,2.386,76.3,143.2,575,0,69.357,71.411,4161.4,4284.7
+lateness_only,20 minutes,1 hour,1,3000,2873,0.957667,0.042333,1.653,2.758,99.2,165.5,127,0,84.718,85.796,5083.1,5147.8
+lateness+burst,5 minutes,1 hour,1,3000,2117,0.705667,0.294333,1.426,2.510,85.6,150.6,883,0,69.539,71.559,4172.3,4293.5
+lateness+burst,20 minutes,1 hour,1,3000,2764,0.921333,0.078667,1.150,3.024,69.0,181.5,236,0,85.113,86.205,5106.8,5172.3
+lateness_only,10 minutes,1 hour,1,3000,2638,0.879333,0.120667,1.673,2.767,100.4,166.0,362,0,74.733,75.816,4484.0,4548.9
+burst_only,5 minutes,1 hour,1,3000,3000,1.000000,0.000000,1.525,2.613,91.5,156.8,0,0,nan,nan,nan,nan
+burst_only,20 minutes,1 hour,1,3000,3000,1.000000,0.000000,1.295,2.377,77.7,142.6,0,0,nan,nan,nan,nan
+baseline,20 minutes,1 hour,1,3000,3000,1.000000,0.000000,1.644,2.766,98.6,165.9,0,0,nan,nan,nan,nan
